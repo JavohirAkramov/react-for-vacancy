@@ -100,11 +100,9 @@ export const sendMyComment = ({ postId, email, name, body }) => {
   }
 }
 export const sendMyPost = ({ userId, title, body }) => {
-  console.log({ userId, title, body })
   return (dispatch) => {
     postListAPI.sendPost({ userId, title, body })
       .then(result => {
-        console.log(result)
         dispatch(setMyPost(result.data))
       })
   }

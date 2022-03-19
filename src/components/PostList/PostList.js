@@ -4,8 +4,6 @@ import s from './PostList.module.css'
 import User from './User/User.js'
 
 function PostList(props) {
-  const [toggleAddPost, setToggleAddPost] = useState(false)
-  console.log(toggleAddPost)
   return (
     <div className={s.content}>
       <h2 className={s.heading}>Users</h2>

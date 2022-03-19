@@ -4,7 +4,6 @@ import s from './AddComment.module.css'
 
 function AddComment(props) {
   let onCancelHandler = () => {
-    console.log(props, "3333333333")
     props.setToggleAddComment(false)
   }
   let postId = props.postId
@@ -59,7 +58,7 @@ function AddComment(props) {
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.name}
-                />
+              />
               {errors.name && touched.name && errors.name}
             </div>
             <div className={s.inputGroup}>
@@ -87,7 +86,7 @@ function AddComment(props) {
             <div>
               <button className={s.firstButton} type="button" onClick={() => { onCancelHandler() }}>Cancel</button>
               <button type="submit" disabled={isSubmitting}>
-              Submit
+                Submit
               </button>
             </div>
           </form>

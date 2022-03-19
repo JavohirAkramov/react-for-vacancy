@@ -9,7 +9,6 @@ class PostListContainer extends Component {
     this.props.getUsers()
   }
   onUserChanged = (userId) => {
-    console.log("normal")
     this.props.getUserPosts(userId)
   }
   onPostSelected = (postId) => {
