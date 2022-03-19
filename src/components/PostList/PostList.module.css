@@ -1,0 +1,28 @@
+.PostListContainer {
+  width: 80%;
+}
+.content {
+  background-color: #9091FD;
+  padding: 16px;
+  border-radius: 16px;
+}
+.heading {
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  color: #0E1E81;
+  border-bottom: 1px solid #0E1E81
+}
+.users {
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+  min-width: 200px;
+  margin-bottom: 16px
+  /* background-color: #0085b9; */
+  over
+}
+@media only screen and (max-width: 768px) {
+  .PostListContainer {
+    width: 100%
+  }
+}

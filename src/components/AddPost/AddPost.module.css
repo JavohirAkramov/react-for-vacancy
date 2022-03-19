@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column; 
+  padding: 16px;
+  width: 80%;
+  background-color: #9091FD;
+  border-radius: 16px
+}
+.addPost {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.addPostHeading {
+  margin-top: 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #0E1E81;
+}
+.inputGroup {
+  margin: 0 8px 8px 0;
+  display:flex;
+  flex-direction:column
+}
+.firstButton {
+  margin-right: 8px;
+}

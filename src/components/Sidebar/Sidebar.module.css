@@ -1,0 +1,20 @@
+.sidebar {
+  width: 20%;
+  height: 100em;
+  background-color: #9091FD;
+  margin-right: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  border-radius: 16px;
+}
+.button {
+  width: 100%;
+  margin-bottom: 8px
+}
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}

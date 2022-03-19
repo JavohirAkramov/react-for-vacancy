@@ -1,0 +1,34 @@
+.user,
+.userActive {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 8px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.user {
+  background-color: #fff;
+  /* background-color: #0085b9; */
+  border: 1px solid #FFFFFF;
+  color: #0E1E81
+}
+.user:hover {
+  border-color: #0E1E81
+}
+.userActive {
+  background-color: #0E1E81;
+  border: 1px solid #0E1E81;
+  color: #FFFFFF;
+}
+.userActive:hover {
+  border-color: #FFFFFF
+}
+.image {
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.name {
+  text-align: center;
+}
